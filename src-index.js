@@ -1,4 +1,5 @@
 import 'webcomponents.js/webcomponents'
+//import 'webcomponents.js/webcomponents-lite' // works with lite version
 
 window.addEventListener('WebComponentsReady', function() {
   var CustomElement = Object.create(HTMLElement.prototype);
